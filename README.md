@@ -9,12 +9,21 @@ To reproduce the results, execute the `main.py` with command line options of `mt
 ```
 python main.py mtht
 ```
+This also works for classification task using features with low (<5) Variance Inflation Factor (VIF). 
+
 
 ### Files and Directories
+Files listed here are not exhaustive. We only list out more relevant files. 
 
-- `main.py` - implements the classification with grid search and recursive feature elimination (RFECV). 
-- `vif_classification.py` -  implements the classification using features whose Variance Inflation Factor (VIF) are below 5. 
-- `feature_calculation/` - 
+- `main.py` - implements the classification with grid search and recursive feature elimination (RFECV). (section 4.2)
+- `vif_classification.py` -  implements the classification using features whose Variance Inflation Factor (VIF) are below 5. (section 4.2)
+- `feature_calculation/` - files implement the translationese features (section 4.1)
+- `coefficient_calculation/` - files to extract the feature importance metrics (section 5.2)
+   - `1_combine_all.py` - 
 
+- `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data
+  - `mtht_data.py` - extracts the non-translationese from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
+  - `htpe_data.py` - extracts the ht and pe part from [Microsoft Human-Parity](https://github.com/MicrosoftTranslator/Translator-HumanParityData). 
+  - `mtpe_data.py` - extracts mt and pe from 
 
 ### Results 
