@@ -33,5 +33,6 @@ python vif_classification.py mtht
 - `util` - some common functions 
 - `feature_calculation/` - files implement the translationese features (section 4.1)
 - `selected_features/` - seleccted features after RFECV in `main.py`
+- `vif_features/` - features derived after implementing `vif_classification.py`
 - `hyperparameter/` - best hyperparameters found by grid search in `main.py`
 - `feature_importance/` - outputs derived from `coefficient_calculations`
