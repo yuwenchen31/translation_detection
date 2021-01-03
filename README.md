@@ -32,9 +32,9 @@ python vif_classification.py mtht
 - `all_feat_classification.py` - implements the classification all features (including PoS and character ngrams). Please note that it uses different data format than other two classification, which can be downloded [here](https://drive.google.com/drive/folders/1UITeVlCnln1Lh4etldm30klvAe3NcL4_?usp=sharing).
 - `data/` - pickle files. Each column is the feature value. 
 - `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data (section 3)
-   - `mtht_data.py` - extracts the non-translationese from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
-   - `htpe_data.py` - extracts the ht and pe part from [Microsoft Human-Parity](https://github.com/MicrosoftTranslator/Translator-HumanParityData). 
-   - `mtpe_data.py` - extracts mt and pe from [Automatic Post-Editing (APE) shared task](http://www.statmt.org/wmt19/ape-task.html) and [APE-QUEST](https://ape-quest.eu/downloads/).
+   - `mtht_data.py` - extracts the non-translationese MT and HT from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
+   - `htpe_data.py` - extracts the HT and PE part from [Microsoft Human-Parity](https://github.com/MicrosoftTranslator/Translator-HumanParityData). 
+   - `mtpe_data.py` - extracts MT and PE from [Automatic Post-Editing (APE) shared task](http://www.statmt.org/wmt19/ape-task.html) and [APE-QUEST](https://ape-quest.eu/downloads/).
    - `train_dev_test_split.py` - split data into 70% of training and 30% of testing
 - `coefficient_calculation/` - files to extract the feature importance (section 5.2)
    - `1_combine_all.py` - combines different language pairs and context length into one csv file
