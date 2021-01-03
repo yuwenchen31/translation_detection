@@ -1,6 +1,6 @@
 # Automatic detection of different types of translation based on translationese features
 
-We employed a Support Vector Machines (SVMs) classifier and conducted three binary classification tasks (i.e., machine translation (MT) vs. human translation (HT), MT vs. post-edit (PE), and HT-PE) using the linguistic attributes inspired by translation studies. Those linguistic features model the phenomenon of translationese in four aspects - simplification, explicitation, normalization, and interference. For details, please see the complete version of my [master thesis](https://drive.google.com/file/d/1Xlr-K9PZ7IhBoB4Bm-k7ghXkvOegMauC/view?usp=sharing). 
+We employed a Support Vector Machines (SVMs) classifier and conducted three binary classification tasks (i.e., machine translation (MT) vs. human translation (HT), MT vs. post-edit (PE), and HT vs. PE) using the linguistic attributes inspired by translation studies. Those linguistic features model the phenomenon of translationese in four aspects - simplification, explicitation, normalization, and interference. For details, please see the complete version of my [master thesis](https://drive.google.com/file/d/1Xlr-K9PZ7IhBoB4Bm-k7ghXkvOegMauC/view?usp=sharing). 
 
 ### Install Dependencies
 
