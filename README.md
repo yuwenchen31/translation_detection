@@ -9,8 +9,6 @@ To reproduce the results, execute the `main.py` with command line options of `mt
 ```
 python main.py mtht
 ```
-This also works for classification task using features with low (<5) Variance Inflation Factor (VIF). 
-
 
 ### Files and Directories
 
