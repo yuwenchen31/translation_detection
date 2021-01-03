@@ -50,8 +50,18 @@ python vif_classification.py mtht
 ### Results
 The accuracy of each task derived from `main.py` with the context length of 10 consecutive sentences. For the results using the context length of 2 and 5, please see the section 5.1 in the thesis. 
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+#### MT-HT 
+Language Pair  | ende | enfi | enlt | enru | deen | fien | guen | kken | lten | ruen | zhen |
+-------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+Accuracy       | 0.51 | 0.62 | 0.6 | 0.55 | 0.5 | 0.56 | 0.76 | 0.67 | 0.58 | 0.6 | 0.57 |          
+ 
+#### HT-PE 
 
+Language Pair  | zhen |
+-------------- | ---- |
+Accuracy  | 0.72 |
+
+#### MT-PE
+Language Pair  | ende | enru | enfr | ennl | enpt |
+-------------- | ---- | ---- | ---- | ---- | ---- |
+Accuracy       | 0.55 | 0.48 | 0.62 | 0.61 | 0.54 |
