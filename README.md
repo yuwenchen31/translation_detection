@@ -48,7 +48,7 @@ python vif_classification.py mtht
 - `feature_importance/` - outputs derived from `coefficient_calculations`
 
 ### Results
-The accuracy of each task derived from `main.py` with the context length of 10 consecutive sentences. For the results using the context length of 2 and 5, please see the section 5.1 in the thesis. 
+The accuracy of each task derived from `main.py` (i.e., PoS and Character ngrams are **not** included in the features) with the context length of 10 consecutive sentences. For the results using the context length of 2 and 5, please see the section 5.1 in the thesis. 
 
 #### MT-HT 
 Language Pair  | ende | enfi | enlt | enru | deen | fien | guen | kken | lten | ruen | zhen |
