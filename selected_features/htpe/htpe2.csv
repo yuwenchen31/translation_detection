@@ -1,0 +1,14 @@
+,Context Length,Feature Name,Coefficient
+0,2,positional token frequency,0.16332779044401455
+1,2,yulesi,0.10385698819709749
+2,2,average function words,-0.07768468366765124
+3,2,pos perplexity,-0.08492191928038491
+4,2,lexical density,-0.10247546300741832
+5,2,thresold PMI,-0.12611232059456315
+6,2,average word length,-0.1351203094748758
+7,2,mean word rank,-0.1603723153477624
+8,2,50 most frequent word,-0.16236324379478684
+9,2,type token ratio,-0.1661993383323841
+10,2,length ratio,-0.18264800046465496
+11,2,mdd,-0.182805812165823
+12,2,mtld,-0.24506809336028765

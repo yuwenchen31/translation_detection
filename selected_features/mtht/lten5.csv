@@ -1,0 +1,6 @@
+,Context Length,Feature Name,Coefficient
+0,5,5 most frequent word,0.27868457412741854
+1,5,yulesi,0.27502580903470353
+2,5,mtld,-0.1785755493069397
+3,5,10 most frequent word,-0.18831719902147348
+4,5,length ratio,-0.2081119915554506

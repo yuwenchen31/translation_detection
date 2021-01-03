@@ -1,0 +1,6 @@
+,Context Length,Feature Name,Coefficient
+0,5,pmi,0.15594497368639323
+1,5,length ratio,0.13526413322756217
+2,5,yulesi,-0.04344762410654559
+3,5,thresold PMI,-0.07748271639064913
+4,5,repetition ratio,-0.08613875992851189

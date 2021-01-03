@@ -1,0 +1,10 @@
+,Context Length,Feature Name,Coefficient
+0,5,type token ratio,0.673798454254762
+1,5,average function words,0.5333854548834526
+2,5,syllable ratio,0.5227094349345847
+3,5,positional token frequency,0.5204509875539185
+4,5,5 most frequent word,0.5012748294770584
+5,5,repetition ratio,-0.38145533085397415
+6,5,yulesi,-0.45199983962951296
+7,5,average word length,-0.49012474730945477
+8,5,50 most frequent word,-0.5049383143964602

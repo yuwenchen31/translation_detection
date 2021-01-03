@@ -1,0 +1,14 @@
+,Context Length,Feature Name,Coefficient
+0,10,perplexity,9.961878367394595
+1,10,average sentence length,4.03319565354092
+2,10,thresold PMI,1.2295244867425468
+3,10,10 most frequent word,0.9428007005475251
+4,10,5 most frequent word,0.6861216705529186
+5,10,passive verb ratio,0.6560917176738318
+6,10,average word length,0.6264190305724443
+7,10,yulesi,-0.12520645483005277
+8,10,contextual function word,-0.3624227882227831
+9,10,mean multiple naming,-0.6105459244223588
+10,10,pmi,-0.9795928360997328
+11,10,lexical density,-0.9952473043719168
+12,10,syllable ratio,-4.815464173295896

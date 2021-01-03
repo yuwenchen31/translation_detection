@@ -1,0 +1,8 @@
+,Context Length,Feature Name,Coefficient
+0,2,pmi,0.16409157686106782
+1,2,average function words,0.08308280878744477
+2,2,pos perplexity,0.07701740096186994
+3,2,passive verb ratio,0.06463874757928711
+4,2,average word length,-0.09494470681503611
+5,2,mtld,-0.10654203861325479
+6,2,length ratio,-0.19327614680195232

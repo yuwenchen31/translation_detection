@@ -1,0 +1,9 @@
+,Context Length,Feature Name,Coefficient
+0,10,average function words,0.32198238951751723
+1,10,5 most frequent word,0.2578248724464236
+2,10,lexical density,-0.08918190761574717
+3,10,average word length,-0.2616990138253177
+4,10,repetition ratio,-0.31477898774002966
+5,10,contextual function word,-0.31765182560274313
+6,10,yulesi,-0.32842103101296194
+7,10,pronoun ratio,-0.3666218736984165

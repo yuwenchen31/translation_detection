@@ -1,0 +1,468 @@
+,Context Length,Feature Name,Language Pair,Coefficient
+0,2,length ratio,deen,0.15391208088972900
+1,2,5 most frequent word,deen,0.0989352701619058
+2,2,thresold PMI,deen,0.06507199050911350
+3,2,average word length,deen,0.052991470433819300
+4,2,10 most frequent word,deen,-0.026606973787091300
+5,2,syllable ratio,deen,-0.03724270376325720
+6,2,repetition ratio,deen,-0.050722410912326000
+7,2,average function words,deen,-0.061450629666241700
+8,2,pos perplexity,deen,-0.07608228860822190
+9,2,mean word rank,deen,-0.0805660907847665
+10,2,pronoun ratio,deen,-0.08775302154131240
+11,2,mtld,deen,-0.08804654664109200
+12,2,lexical density,deen,-0.09156848444884730
+13,2,syllable ratio,ruen,0.2690152695975240
+14,2,yulesi,ruen,0.1905073842569440
+15,2,passive verb ratio,ruen,-0.251250760398957
+16,2,lexical density,ruen,-0.2584728362972150
+17,2,pos perplexity,ruen,-0.2619739476156380
+18,2,pronoun ratio,ruen,-0.3443151715358850
+19,2,mean word rank,ruen,-0.3898436318083130
+20,2,mtld,ruen,-0.4099569059755730
+21,2,average sentence length,ruen,-0.4484617772030920
+22,2,length ratio,ruen,-0.6599466605510260
+23,2,5 most frequent word,guen,0.4127555150635000
+24,2,syllable ratio,guen,0.3346392993781430
+25,2,positional token frequency,guen,0.29031373373429200
+26,2,perplexity,guen,0.15269008448258500
+27,2,repetition ratio,guen,-0.1667631617076110
+28,2,mean multiple naming,guen,-0.1916263374941680
+29,2,average sentence length,guen,-0.2318077927177700
+30,2,single naming,guen,-0.2444354466558740
+31,2,pmi,guen,-0.26346222053191200
+32,2,50 most frequent word,guen,-0.27304806594408600
+33,2,average word length,guen,-0.29952182022413200
+34,2,length ratio,guen,-0.3689659399856740
+35,2,pronoun ratio,guen,-0.4678322088475590
+36,2,lexical density,guen,-0.565446624972769
+37,2,contextual function word,fien,0.3378297092207080
+38,2,average sentence length,fien,0.22474210544795400
+39,2,mean word rank,fien,0.20302954113739800
+40,2,5 most frequent word,fien,0.1825467792627640
+41,2,lexical density,fien,0.12812020644675500
+42,2,perplexity,fien,0.11417096945250300
+43,2,thresold PMI,fien,0.11066004943771400
+44,2,passive verb ratio,fien,0.09343694953740600
+45,2,positional token frequency,fien,0.09004646046114570
+46,2,50 most frequent word,fien,0.08563827117405370
+47,2,mdd,fien,0.05681343873213630
+48,2,yulesi,fien,0.04029618123303810
+49,2,mean multiple naming,fien,0.02510295125935240
+50,2,mtld,fien,-0.0010724145154960800
+51,2,single naming,fien,-0.049045237868862500
+52,2,explicit naming,fien,-0.06953191909577200
+53,2,10 most frequent word,fien,-0.09207351219291420
+54,2,length ratio,fien,-0.09255103804243740
+55,2,type token ratio,fien,-0.12639882869445000
+56,2,average function words,fien,-0.15088654062981300
+57,2,pmi,fien,-0.1927635672485390
+58,2,average word length,fien,-0.20810057852339500
+59,2,repetition ratio,fien,-0.2213263494376320
+60,2,pronoun ratio,fien,-0.34374641024052000
+61,2,syllable ratio,fien,-0.5496967475013580
+62,2,average sentence length,kken,0.29556045852666500
+63,2,5 most frequent word,kken,0.21670353639829600
+64,2,thresold PMI,kken,0.15202357960960500
+65,2,pmi,kken,-0.121514008164883
+66,2,lexical density,kken,-0.17296106567397700
+67,2,syllable ratio,kken,-0.4055870930965690
+68,2,pmi,enlt,0.16409157686106800
+69,2,average function words,enlt,0.08308280878744480
+70,2,pos perplexity,enlt,0.07701740096186990
+71,2,passive verb ratio,enlt,0.06463874757928710
+72,2,average word length,enlt,-0.09494470681503610
+73,2,mtld,enlt,-0.1065420386132550
+74,2,length ratio,enlt,-0.19327614680195200
+75,2,10 most frequent word,ende,0.1618671269249060
+76,2,average word length,ende,0.144235300473536
+77,2,explicit naming,ende,0.13557791894177600
+78,2,thresold PMI,ende,0.10072564478935200
+79,2,passive verb ratio,ende,0.04601772054287480
+80,2,yulesi,ende,0.0393987639994761
+81,2,contextual function word,ende,0.032023552918818000
+82,2,single naming,ende,-0.023837312726621000
+83,2,pos perplexity,ende,-0.030804501338440400
+84,2,positional token frequency,ende,-0.044296995276959600
+85,2,lexical density,ende,-0.056197325816239400
+86,2,pronoun ratio,ende,-0.057518876985840100
+87,2,5 most frequent word,ende,-0.05798257687748040
+88,2,mean multiple naming,ende,-0.06457459941587580
+89,2,mean word rank,ende,-0.06738962895458500
+90,2,average function words,ende,-0.07806397149059630
+91,2,repetition ratio,ende,-0.08154294744416000
+92,2,mdd,ende,-0.08420984514757610
+93,2,50 most frequent word,ende,-0.14701452229703300
+94,2,pmi,ende,-0.18976806965643400
+95,2,length ratio,ende,-0.8323191531521820
+96,2,yulesi,lten,0.17083133470000800
+97,2,5 most frequent word,lten,0.12619496986012400
+98,2,average word length,lten,0.12405774811381600
+99,2,contextual function word,lten,0.1178057960334970
+100,2,pmi,lten,0.1163939422468570
+101,2,50 most frequent word,lten,0.07194644283852920
+102,2,average sentence length,lten,0.06486975127197390
+103,2,pos perplexity,lten,0.04392812483812880
+104,2,lexical density,lten,-0.052294962077651400
+105,2,pronoun ratio,lten,-0.06472093353507830
+106,2,repetition ratio,lten,-0.06546222174951
+107,2,type token ratio,lten,-0.1047075345856790
+108,2,mean word rank,lten,-0.11750595352149500
+109,2,average function words,lten,-0.13384506667057900
+110,2,syllable ratio,lten,-0.13727136351515000
+111,2,10 most frequent word,lten,-0.16674594446246000
+112,2,length ratio,lten,-0.18910713666044900
+113,2,mtld,lten,-0.2352762452327200
+114,2,thresold PMI,enru,0.059960555688690000
+115,2,average word length,enru,0.0539122126265595
+116,2,50 most frequent word,enru,0.047530943425853600
+117,2,passive verb ratio,enru,0.04131866552134920
+118,2,lexical density,enru,0.032278432591693800
+119,2,mean multiple naming,enru,0.02680967522982060
+120,2,single naming,enru,0.02478225042591230
+121,2,pos perplexity,enru,0.02290287185067070
+122,2,mdd,enru,0.016728981949726400
+123,2,5 most frequent word,enru,0.010246504079002200
+124,2,pronoun ratio,enru,0.007736716936100530
+125,2,type token ratio,enru,0.003000083290316730
+126,2,average function words,enru,0.0010012148087284600
+127,2,contextual function word,enru,-0.008976122901029720
+128,2,repetition ratio,enru,-0.013879920576395300
+129,2,explicit naming,enru,-0.0174489908496672
+130,2,mtld,enru,-0.01818236978019910
+131,2,yulesi,enru,-0.01999597537326670
+132,2,positional token frequency,enru,-0.021273796636365400
+133,2,average sentence length,enru,-0.032589639560876100
+134,2,10 most frequent word,enru,-0.04342049361778220
+135,2,mean word rank,enru,-0.05130339087511620
+136,2,pmi,enru,-0.07659116961797220
+137,2,length ratio,enru,-0.2110873639191720
+138,2,average sentence length,enfi,0.18120980880416000
+139,2,yulesi,enfi,0.17978573026000800
+140,2,positional token frequency,enfi,0.0878687679538409
+141,2,explicit naming,enfi,0.06240311926035460
+142,2,passive verb ratio,enfi,0.061747900014730400
+143,2,pmi,enfi,0.05475375510811520
+144,2,mean multiple naming,enfi,0.04204294700459610
+145,2,single naming,enfi,0.040741356948387500
+146,2,contextual function word,enfi,0.007684353851821540
+147,2,50 most frequent word,enfi,-0.004207482120032210
+148,2,10 most frequent word,enfi,-0.02082912984244560
+149,2,type token ratio,enfi,-0.035757527985572300
+150,2,5 most frequent word,enfi,-0.03744367784529150
+151,2,average word length,enfi,-0.0386047102075615
+152,2,repetition ratio,enfi,-0.04464717188525360
+153,2,pronoun ratio,enfi,-0.044722148425138400
+154,2,thresold PMI,enfi,-0.0836225536798306
+155,2,lexical density,enfi,-0.09515096671012180
+156,2,average function words,enfi,-0.11050463622705100
+157,2,mdd,enfi,-0.14852943302004600
+158,2,mean word rank,enfi,-0.15778150262520500
+159,2,length ratio,enfi,-0.1836687720473250
+160,2,mtld,enfi,-0.3607353218384660
+161,2,average sentence length,zhen,0.8609873749090580
+162,2,5 most frequent word,zhen,0.4758672073557040
+163,2,average function words,zhen,0.2335250857896950
+164,2,yulesi,zhen,0.13894374797501400
+165,2,thresold PMI,zhen,0.07456100958948500
+166,2,perplexity,zhen,0.057069029734647600
+167,2,average word length,zhen,0.055918140806419400
+168,2,type token ratio,zhen,0.04751534034025830
+169,2,contextual function word,zhen,0.036609565194132100
+170,2,repetition ratio,zhen,0.02491416634542940
+171,2,passive verb ratio,zhen,-0.017308315342558700
+172,2,single naming,zhen,-0.021806570714643200
+173,2,lexical density,zhen,-0.035153329574868600
+174,2,pos perplexity,zhen,-0.041404295929825700
+175,2,pronoun ratio,zhen,-0.0733810658084712
+176,2,mean multiple naming,zhen,-0.10596660936904300
+177,2,mean word rank,zhen,-0.1245202764707970
+178,2,50 most frequent word,zhen,-0.12770573993946800
+179,2,explicit naming,zhen,-0.1291411656369810
+180,2,positional token frequency,zhen,-0.14235372865831700
+181,2,10 most frequent word,zhen,-0.18139440541224900
+182,2,mtld,zhen,-0.30239801894326500
+183,2,mdd,zhen,-0.4034866366421720
+184,2,pmi,zhen,-0.4413230482446600
+185,2,syllable ratio,zhen,-0.5308443798395420
+186,2,length ratio,zhen,-0.5476451598061650
+187,5,type token ratio,guen,0.673798454254762
+188,5,average function words,guen,0.5333854548834530
+189,5,syllable ratio,guen,0.5227094349345850
+190,5,positional token frequency,guen,0.5204509875539190
+191,5,5 most frequent word,guen,0.5012748294770580
+192,5,repetition ratio,guen,-0.38145533085397400
+193,5,yulesi,guen,-0.451999839629513
+194,5,average word length,guen,-0.4901247473094550
+195,5,50 most frequent word,guen,-0.5049383143964600
+196,5,syllable ratio,ruen,1.0673131850509800
+197,5,yulesi,ruen,0.5523904964205100
+198,5,5 most frequent word,ruen,0.33181775802928100
+199,5,50 most frequent word,ruen,0.11603844556784500
+200,5,positional token frequency,ruen,0.11237139862400600
+201,5,contextual function word,ruen,0.09141253944905680
+202,5,perplexity,ruen,0.05529506587686570
+203,5,mdd,ruen,-0.05016460467974990
+204,5,thresold PMI,ruen,-0.05201416289232470
+205,5,average function words,ruen,-0.053250538839740500
+206,5,type token ratio,ruen,-0.07088436653192910
+207,5,pmi,ruen,-0.08963768746798860
+208,5,single naming,ruen,-0.09242836750596280
+209,5,mean multiple naming,ruen,-0.10040770635104400
+210,5,repetition ratio,ruen,-0.13240428245320600
+211,5,explicit naming,ruen,-0.16353990591046400
+212,5,lexical density,ruen,-0.20835670615454600
+213,5,average word length,ruen,-0.2464445197586410
+214,5,10 most frequent word,ruen,-0.25099428013889000
+215,5,pos perplexity,ruen,-0.2677436465552590
+216,5,passive verb ratio,ruen,-0.3160152521772100
+217,5,mean word rank,ruen,-0.3386736238957140
+218,5,pronoun ratio,ruen,-0.3560880360475600
+219,5,mtld,ruen,-0.6666878349048210
+220,5,length ratio,ruen,-0.8957177266985180
+221,5,average sentence length,ruen,-1.1769363702853300
+222,5,length ratio,deen,0.3578546477038350
+223,5,average word length,deen,0.13654794775997400
+224,5,5 most frequent word,deen,0.13292861348309500
+225,5,average sentence length,deen,0.08453869769852760
+226,5,type token ratio,deen,0.08406523989806400
+227,5,10 most frequent word,deen,-0.07662356581918100
+228,5,average function words,deen,-0.08132287198527960
+229,5,syllable ratio,deen,-0.08158032146352680
+230,5,repetition ratio,deen,-0.10064134763607800
+231,5,pos perplexity,deen,-0.10829393412464200
+232,5,pronoun ratio,deen,-0.12611366233440900
+233,5,lexical density,deen,-0.13303865150690900
+234,5,mean word rank,deen,-0.13660243497245100
+235,5,yulesi,deen,-0.14164042870959200
+236,5,average sentence length,fien,0.762236189585704
+237,5,contextual function word,fien,0.37094978462655400
+238,5,length ratio,fien,0.2848465734590760
+239,5,repetition ratio,fien,-0.37343255631169600
+240,5,pronoun ratio,fien,-0.5718869166077670
+241,5,syllable ratio,fien,-1.0246050653177200
+242,5,average function words,enlt,0.2777962408261020
+243,5,length ratio,enlt,-0.7572396388365190
+244,5,average sentence length,kken,1.6562412518409200
+245,5,5 most frequent word,kken,0.8435533398856470
+246,5,thresold PMI,kken,0.4462219122369620
+247,5,explicit naming,kken,0.4221201794495500
+248,5,average word length,kken,0.4139980270021720
+249,5,10 most frequent word,kken,0.3334962217495370
+250,5,passive verb ratio,kken,0.3189166970533710
+251,5,type token ratio,kken,0.2931752170236950
+252,5,50 most frequent word,kken,0.2614650591552400
+253,5,perplexity,kken,0.2559595873316580
+254,5,average function words,kken,0.061357687268862000
+255,5,mdd,kken,-0.1195093474543190
+256,5,positional token frequency,kken,-0.13180143713951800
+257,5,single naming,kken,-0.13899402155922800
+258,5,repetition ratio,kken,-0.1505825962239820
+259,5,mean multiple naming,kken,-0.21022926379950200
+260,5,pmi,kken,-0.21184456405740400
+261,5,mean word rank,kken,-0.2668074017837630
+262,5,pronoun ratio,kken,-0.5345715962875540
+263,5,contextual function word,kken,-0.5801732899989870
+264,5,lexical density,kken,-0.9205035116189330
+265,5,syllable ratio,kken,-1.7646508458597300
+266,5,average sentence length,zhen,1.505815232574000
+267,5,5 most frequent word,zhen,0.7306227649789940
+268,5,average word length,zhen,0.2537168140491160
+269,5,average function words,zhen,0.229002016852562
+270,5,contextual function word,zhen,0.10849711309772000
+271,5,passive verb ratio,zhen,0.05661589665497570
+272,5,repetition ratio,zhen,-0.08063406383315760
+273,5,explicit naming,zhen,-0.09871659073304560
+274,5,perplexity,zhen,-0.1075438013437560
+275,5,50 most frequent word,zhen,-0.13694703758065400
+276,5,pronoun ratio,zhen,-0.1771699425542770
+277,5,mtld,zhen,-0.21899507826616600
+278,5,mean word rank,zhen,-0.2214867236036780
+279,5,positional token frequency,zhen,-0.251983674142686
+280,5,10 most frequent word,zhen,-0.3042357843782970
+281,5,mdd,zhen,-0.32111630829823600
+282,5,pmi,zhen,-0.4933408073867530
+283,5,length ratio,zhen,-0.7650117708444640
+284,5,syllable ratio,zhen,-1.3488526368907600
+285,5,average sentence length,enfi,0.9004942273958030
+286,5,yulesi,enfi,0.7780624216485460
+287,5,positional token frequency,enfi,0.4211723160252600
+288,5,50 most frequent word,enfi,-0.25405955201776300
+289,5,average function words,enfi,-0.3048724435508590
+290,5,thresold PMI,enfi,-0.34183371580715000
+291,5,mdd,enfi,-0.3555724518531230
+292,5,repetition ratio,enfi,-0.4223323618431010
+293,5,length ratio,enfi,-0.5185528070838900
+294,5,mean word rank,enfi,-0.5760756673744790
+295,5,mtld,enfi,-1.3712961358463700
+296,5,type token ratio,enru,0.18257579966667900
+297,5,average word length,enru,0.18124828156123000
+298,5,average sentence length,enru,0.1269348401926600
+299,5,thresold PMI,enru,0.09922658307591490
+300,5,average function words,enru,0.0462004157860699
+301,5,lexical density,enru,0.044742955912984600
+302,5,passive verb ratio,enru,0.04091875754380590
+303,5,repetition ratio,enru,0.003053317885844240
+304,5,pos perplexity,enru,-0.002614637775026480
+305,5,contextual function word,enru,-0.024365964808578900
+306,5,pmi,enru,-0.055209057181782600
+307,5,yulesi,enru,-0.09720028580211930
+308,5,mean word rank,enru,-0.09814934356500810
+309,5,length ratio,enru,-0.3550234884230930
+310,5,5 most frequent word,lten,0.2786845741274190
+311,5,yulesi,lten,0.27502580903470400
+312,5,mtld,lten,-0.1785755493069400
+313,5,10 most frequent word,lten,-0.18831719902147300
+314,5,length ratio,lten,-0.2081119915554510
+315,5,average word length,ende,0.2820535526588630
+316,5,explicit naming,ende,0.18880032343704100
+317,5,10 most frequent word,ende,0.16446336988773900
+318,5,type token ratio,ende,0.13264937680190400
+319,5,average sentence length,ende,0.0654726395195103
+320,5,thresold PMI,ende,0.053426406559238500
+321,5,5 most frequent word,ende,-0.08825599671800000
+322,5,pmi,ende,-0.10597318357609600
+323,5,repetition ratio,ende,-0.1418288188213210
+324,5,yulesi,ende,-0.1697033002736750
+325,5,mean word rank,ende,-0.17818224129744600
+326,5,50 most frequent word,ende,-0.21821359814481100
+327,5,length ratio,ende,-1.0497492357726000
+328,10,yulesi,lten,1.2742843757826100
+329,10,contextual function word,lten,0.9284383637716340
+330,10,5 most frequent word,lten,0.7859106605779600
+331,10,syllable ratio,lten,0.6665544525605900
+332,10,type token ratio,lten,0.6268732485193270
+333,10,average word length,lten,0.4851327144217030
+334,10,explicit naming,lten,0.30980454434527000
+335,10,50 most frequent word,lten,0.2709862857868710
+336,10,mean multiple naming,lten,0.22767254934796200
+337,10,positional token frequency,lten,0.180747131407288
+338,10,perplexity,lten,0.10402217431959200
+339,10,pmi,lten,0.0988034704340544
+340,10,thresold PMI,lten,0.09764708728716010
+341,10,single naming,lten,-0.013480408631018000
+342,10,repetition ratio,lten,-0.016667543184072700
+343,10,passive verb ratio,lten,-0.04930268403279460
+344,10,mdd,lten,-0.13216196206863700
+345,10,pos perplexity,lten,-0.246743476778034
+346,10,mtld,lten,-0.32193000269523100
+347,10,average sentence length,lten,-0.3994851558143830
+348,10,10 most frequent word,lten,-0.5544188715373610
+349,10,lexical density,lten,-0.5649029034741220
+350,10,pronoun ratio,lten,-0.6354467169146840
+351,10,average function words,lten,-0.6378126065468200
+352,10,mean word rank,lten,-0.6567742451530330
+353,10,length ratio,lten,-0.7820414395991320
+354,10,syllable ratio,ruen,0.7384964980411990
+355,10,yulesi,ruen,0.2935138736687890
+356,10,5 most frequent word,ruen,0.15239946752514000
+357,10,positional token frequency,ruen,0.09789702198139500
+358,10,pmi,ruen,-0.11028776409841000
+359,10,average function words,ruen,-0.1190345278570670
+360,10,single naming,ruen,-0.1366773085220200
+361,10,mean word rank,ruen,-0.1584099409051290
+362,10,type token ratio,ruen,-0.1643622907022580
+363,10,lexical density,ruen,-0.21091086091465600
+364,10,passive verb ratio,ruen,-0.21742990247394500
+365,10,mtld,ruen,-0.22385674204402300
+366,10,average word length,ruen,-0.30806372648825700
+367,10,pronoun ratio,ruen,-0.4372579373334780
+368,10,length ratio,ruen,-0.5260912021821200
+369,10,average sentence length,ruen,-0.8877104801342360
+370,10,mean word rank,ende,-0.07593160080201740
+371,10,length ratio,ende,-0.5359060547326320
+372,10,length ratio,fien,0.520053591499971
+373,10,contextual function word,fien,0.39675301018326600
+374,10,5 most frequent word,fien,0.27221821002768200
+375,10,syllable ratio,fien,-0.3557386925554590
+376,10,pronoun ratio,fien,-0.5425118517477710
+377,10,repetition ratio,fien,-0.5561060552919630
+378,10,perplexity,kken,9.961878367394600
+379,10,average sentence length,kken,4.03319565354092
+380,10,thresold PMI,kken,1.2295244867425500
+381,10,10 most frequent word,kken,0.9428007005475250
+382,10,5 most frequent word,kken,0.6861216705529190
+383,10,passive verb ratio,kken,0.6560917176738320
+384,10,average word length,kken,0.6264190305724440
+385,10,yulesi,kken,-0.12520645483005300
+386,10,contextual function word,kken,-0.3624227882227830
+387,10,mean multiple naming,kken,-0.6105459244223590
+388,10,pmi,kken,-0.9795928360997330
+389,10,lexical density,kken,-0.9952473043719170
+390,10,syllable ratio,kken,-4.815464173295900
+391,10,average function words,guen,0.32198238951751700
+392,10,5 most frequent word,guen,0.2578248724464240
+393,10,lexical density,guen,-0.08918190761574720
+394,10,average word length,guen,-0.2616990138253180
+395,10,repetition ratio,guen,-0.3147789877400300
+396,10,contextual function word,guen,-0.31765182560274300
+397,10,yulesi,guen,-0.32842103101296200
+398,10,pronoun ratio,guen,-0.3666218736984170
+399,10,length ratio,deen,0.4999490505159580
+400,10,average word length,deen,0.15588407815822000
+401,10,50 most frequent word,deen,0.11967669742848100
+402,10,5 most frequent word,deen,0.10499055480168400
+403,10,contextual function word,deen,0.09625621309642900
+404,10,thresold PMI,deen,0.09025425848447410
+405,10,passive verb ratio,deen,-0.0757298584299255
+406,10,single naming,deen,-0.08975833377660320
+407,10,pos perplexity,deen,-0.15666540244793900
+408,10,10 most frequent word,deen,-0.16657388908333700
+409,10,repetition ratio,deen,-0.1950394537251200
+410,10,mean word rank,deen,-0.197282473170846
+411,10,yulesi,deen,-0.2347497198616340
+412,10,lexical density,deen,-0.2493617923308720
+413,10,average function words,deen,-0.251693050270059
+414,10,pronoun ratio,deen,-0.30717303088005200
+415,10,average sentence length,zhen,0.9020240719531400
+416,10,5 most frequent word,zhen,0.28803079878203300
+417,10,average word length,zhen,0.21418505528501900
+418,10,average function words,zhen,0.13331634047177100
+419,10,50 most frequent word,zhen,0.07772232357267230
+420,10,perplexity,zhen,-0.05411119236019410
+421,10,repetition ratio,zhen,-0.0901887847937164
+422,10,positional token frequency,zhen,-0.13239804539330000
+423,10,mdd,zhen,-0.16351965789492600
+424,10,mean word rank,zhen,-0.16554455292909100
+425,10,mtld,zhen,-0.1655491793657850
+426,10,10 most frequent word,zhen,-0.16697997804533900
+427,10,pronoun ratio,zhen,-0.1979015047663750
+428,10,pmi,zhen,-0.2453815943398810
+429,10,length ratio,zhen,-0.40298335970317900
+430,10,syllable ratio,zhen,-0.81613679140926
+431,10,average word length,enru,0.22120919142208700
+432,10,type token ratio,enru,0.10509548882941800
+433,10,yulesi,enru,-0.1785620599988400
+434,10,length ratio,enru,-0.4953886444725230
+435,10,average function words,enlt,0.5433151615705800
+436,10,yulesi,enlt,0.4447145011251680
+437,10,pos perplexity,enlt,0.3982440242791320
+438,10,single naming,enlt,0.2480140388861870
+439,10,pmi,enlt,0.210330716558778
+440,10,passive verb ratio,enlt,0.15632425159937800
+441,10,mdd,enlt,0.07094934715521660
+442,10,explicit naming,enlt,-0.0317424621022135
+443,10,thresold PMI,enlt,-0.10070863868870600
+444,10,pronoun ratio,enlt,-0.1782440043141820
+445,10,mean multiple naming,enlt,-0.23984770617562000
+446,10,positional token frequency,enlt,-0.2955166983645590
+447,10,repetition ratio,enlt,-0.529099950561767
+448,10,mtld,enlt,-0.5354966989862670
+449,10,contextual function word,enlt,-0.5516678503505550
+450,10,average word length,enlt,-0.6507442244208880
+451,10,length ratio,enlt,-0.7981090328483070
+452,10,average sentence length,enlt,-1.277893295217940
+453,10,type token ratio,enlt,-1.6540930356291800
+454,10,yulesi,enfi,1.1862991666148400
+455,10,positional token frequency,enfi,0.4914392211899180
+456,10,average sentence length,enfi,0.3806688981481700
+457,10,pronoun ratio,enfi,0.25359713988984900
+458,10,type token ratio,enfi,-0.2396699982311900
+459,10,average word length,enfi,-0.2486781792203150
+460,10,average function words,enfi,-0.3025671540624260
+461,10,thresold PMI,enfi,-0.3553998443160640
+462,10,50 most frequent word,enfi,-0.4133851037446770
+463,10,repetition ratio,enfi,-0.5712434074733060
+464,10,length ratio,enfi,-0.6371984904646520
+465,10,pmi,enfi,-0.7917691984574230
+466,10,mtld,enfi,-1.4036252229449800

@@ -17,12 +17,9 @@ from util.utils import corpy_udpipe
 # and append 4 columns (POS, UD, HEAD, TOK) to the dataframe 
 
 
-
 data_path = '/Users/yuwen/Desktop/Thesis/Project/data/ht_pe/all_no_split/mtht/'
 print(data_path)
 print('We are working on pos tagging & ud.')
-
-#data_path = '/Users/chenfish/Desktop/Thesis/Project/data/mt_ht/subset_deepl/dev/'
 
 for i in os.listdir(data_path): 
     
@@ -88,10 +85,4 @@ for i in os.listdir(data_path):
     train.to_pickle(data_path + i)
     print('Saved Successfully!')
     
-        
-# with open ('./three paragraphs','r') as f:
-#     data = f.read()
-#     sents = list(m.process(data,in_format="horizontal", out_format="conllu"))
-#     print("".join(sents),end="")
-#     #print(data)
-    
+

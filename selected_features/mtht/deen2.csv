@@ -1,0 +1,14 @@
+,Context Length,Feature Name,Coefficient
+0,2,length ratio,0.15391208088972871
+1,2,5 most frequent word,0.09893527016190579
+2,2,thresold PMI,0.06507199050911351
+3,2,average word length,0.05299147043381929
+4,2,10 most frequent word,-0.026606973787091318
+5,2,syllable ratio,-0.037242703763257154
+6,2,repetition ratio,-0.05072241091232601
+7,2,average function words,-0.061450629666241714
+8,2,pos perplexity,-0.07608228860822187
+9,2,mean word rank,-0.0805660907847665
+10,2,pronoun ratio,-0.08775302154131237
+11,2,mtld,-0.08804654664109204
+12,2,lexical density,-0.09156848444884728

@@ -1,0 +1,7 @@
+,Context Length,Feature Name,Coefficient
+0,10,length ratio,0.14485368187543643
+1,10,single naming,0.07592063568877909
+2,10,lexical density,0.06377438511918769
+3,10,pronoun ratio,0.05401083339269591
+4,10,mtld,0.05061493990150061
+5,10,average function words,0.04084402794535051

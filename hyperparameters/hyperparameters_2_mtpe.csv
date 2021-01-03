@@ -1,0 +1,6 @@
+language_pair,C,class_weight,loss,max_iter,tol,random_state
+ende,100,None,hinge,10000,0.001,42
+enru,1000,balanced,hinge,100000,0.001,42
+enfr,100,None,squared_hinge,10000,0.001,42
+ennl,5,balanced,squared_hinge,2000,0.001,42
+enpt,1000,None,squared_hinge,100000,0.001,42

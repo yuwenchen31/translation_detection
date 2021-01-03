@@ -1,0 +1,7 @@
+,Context Length,Feature Name,Coefficient
+0,10,length ratio,0.520053591499971
+1,10,contextual function word,0.39675301018326575
+2,10,5 most frequent word,0.27221821002768243
+3,10,syllable ratio,-0.35573869255545887
+4,10,pronoun ratio,-0.5425118517477713
+5,10,repetition ratio,-0.5561060552919634

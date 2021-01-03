@@ -1,0 +1,10 @@
+,Context Length,Feature Name,Coefficient
+0,2,mean multiple naming,0.08254625607635943
+1,2,single naming,0.03355735913824352
+2,2,mdd,0.025870238067547395
+3,2,average word length,0.022666022979104767
+4,2,explicit naming,-0.0018291457560523775
+5,2,thresold PMI,-0.020569999776188078
+6,2,average function words,-0.02782604176690263
+7,2,type token ratio,-0.034218265685033
+8,2,length ratio,-0.06631823993915378

@@ -1,0 +1,51 @@
+,Context Length,Feature Name,Language Pair,Coefficient
+0,2,positional token frequency,htpe,0.16332779044401500
+1,2,yulesi,htpe,0.10385698819709700
+2,2,average function words,htpe,-0.07768468366765120
+3,2,pos perplexity,htpe,-0.08492191928038490
+4,2,lexical density,htpe,-0.10247546300741800
+5,2,thresold PMI,htpe,-0.12611232059456300
+6,2,average word length,htpe,-0.1351203094748760
+7,2,mean word rank,htpe,-0.1603723153477620
+8,2,50 most frequent word,htpe,-0.16236324379478700
+9,2,type token ratio,htpe,-0.1661993383323840
+10,2,length ratio,htpe,-0.18264800046465500
+11,2,mdd,htpe,-0.18280581216582300
+12,2,mtld,htpe,-0.24506809336028800
+13,5,positional token frequency,htpe,0.8690345172585130
+14,5,perplexity,htpe,0.3711664873756280
+15,5,contextual function word,htpe,0.2744790830157360
+16,5,single naming,htpe,-0.24471575307486200
+17,5,mean word rank,htpe,-0.2539150732139190
+18,5,lexical density,htpe,-0.42029018596552
+19,5,length ratio,htpe,-0.58526515189562
+20,5,thresold PMI,htpe,-0.5933449067430970
+21,5,pmi,htpe,-0.6057709693384580
+22,5,50 most frequent word,htpe,-0.6866100211993650
+23,5,average function words,htpe,-0.6913969216162410
+24,10,positional token frequency,htpe,0.8332859961881340
+25,10,contextual function word,htpe,0.7849951307221690
+26,10,average sentence length,htpe,0.6325221722155840
+27,10,syllable ratio,htpe,0.4406180862564250
+28,10,5 most frequent word,htpe,0.22288637005545000
+29,10,perplexity,htpe,0.1973946154841800
+30,10,thresold PMI,htpe,-0.007214133692750800
+31,10,explicit naming,htpe,-0.05014199132006970
+32,10,type token ratio,htpe,-0.09245812147561320
+33,10,pos perplexity,htpe,-0.10620392350012300
+34,10,yulesi,htpe,-0.2994084574322610
+35,10,mtld,htpe,-0.4014697383850770
+36,10,pmi,htpe,-0.42102303883810400
+37,10,10 most frequent word,htpe,-0.4305030592111260
+38,10,mean multiple naming,htpe,-0.5194924980470740
+39,10,lexical density,htpe,-0.544129900116914
+40,10,repetition ratio,htpe,-0.5445425727010840
+41,10,passive verb ratio,htpe,-0.5605738179387240
+42,10,pronoun ratio,htpe,-0.6122183643986710
+43,10,single naming,htpe,-0.6578940063709450
+44,10,mdd,htpe,-0.7744017009603520
+45,10,50 most frequent word,htpe,-0.8020327192575720
+46,10,average word length,htpe,-0.8332829246536450
+47,10,mean word rank,htpe,-0.967413565784438
+48,10,length ratio,htpe,-0.9745859550624750
+49,10,average function words,htpe,-1.1651152878497800

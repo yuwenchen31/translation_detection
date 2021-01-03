@@ -1,0 +1,9 @@
+,Context Length,Feature Name,Coefficient
+0,10,mean multiple naming,0.6064586340716381
+1,10,average function words,0.15696962474883389
+2,10,length ratio,0.1475617443411466
+3,10,pos perplexity,0.14666510364941293
+4,10,10 most frequent word,0.09252639481139664
+5,10,mean word rank,-0.1272280569443131
+6,10,repetition ratio,-0.18445900321291575
+7,10,50 most frequent word,-0.3092977707655444

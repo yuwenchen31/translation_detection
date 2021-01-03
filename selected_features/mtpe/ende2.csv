@@ -1,0 +1,6 @@
+,Context Length,Feature Name,Coefficient
+0,2,pmi,0.4642845164115107
+1,2,length ratio,0.43507402024802416
+2,2,explicit naming,0.054596095449735496
+3,2,thresold PMI,-0.22116537254573376
+4,2,repetition ratio,-0.25371277332748227

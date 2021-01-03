@@ -1,0 +1,5 @@
+,Context Length,Feature Name,Coefficient
+0,10,average word length,0.22120919142208698
+1,10,type token ratio,0.10509548882941787
+2,10,yulesi,-0.1785620599988397
+3,10,length ratio,-0.4953886444725226

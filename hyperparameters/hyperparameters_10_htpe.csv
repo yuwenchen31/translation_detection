@@ -1,0 +1,3 @@
+language_pair,C,class_weight,loss,max_iter,tol,random_state
+htpe,5,balanced,hinge,2000,0.001,42
+mtht,100,balanced,hinge,100000,0.001,42

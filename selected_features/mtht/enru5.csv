@@ -1,0 +1,15 @@
+,Context Length,Feature Name,Coefficient
+0,5,type token ratio,0.18257579966667856
+1,5,average word length,0.18124828156122977
+2,5,average sentence length,0.1269348401926601
+3,5,thresold PMI,0.09922658307591488
+4,5,average function words,0.0462004157860699
+5,5,lexical density,0.044742955912984606
+6,5,passive verb ratio,0.04091875754380586
+7,5,repetition ratio,0.0030533178858442415
+8,5,pos perplexity,-0.002614637775026475
+9,5,contextual function word,-0.024365964808578944
+10,5,pmi,-0.055209057181782636
+11,5,yulesi,-0.09720028580211931
+12,5,mean word rank,-0.09814934356500807
+13,5,length ratio,-0.3550234884230927

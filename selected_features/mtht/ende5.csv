@@ -1,0 +1,14 @@
+,Context Length,Feature Name,Coefficient
+0,5,average word length,0.2820535526588625
+1,5,explicit naming,0.18880032343704123
+2,5,10 most frequent word,0.16446336988773907
+3,5,type token ratio,0.13264937680190417
+4,5,average sentence length,0.0654726395195103
+5,5,thresold PMI,0.05342640655923849
+6,5,5 most frequent word,-0.08825599671799998
+7,5,pmi,-0.10597318357609598
+8,5,repetition ratio,-0.1418288188213212
+9,5,yulesi,-0.1697033002736754
+10,5,mean word rank,-0.17818224129744617
+11,5,50 most frequent word,-0.21821359814481125
+12,5,length ratio,-1.0497492357725977

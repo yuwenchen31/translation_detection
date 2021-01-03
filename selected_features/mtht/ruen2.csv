@@ -1,0 +1,11 @@
+,Context Length,Feature Name,Coefficient
+0,2,syllable ratio,0.2690152695975239
+1,2,yulesi,0.1905073842569442
+2,2,passive verb ratio,-0.251250760398957
+3,2,lexical density,-0.25847283629721507
+4,2,pos perplexity,-0.26197394761563814
+5,2,pronoun ratio,-0.3443151715358848
+6,2,mean word rank,-0.3898436318083125
+7,2,mtld,-0.4099569059755733
+8,2,average sentence length,-0.44846177720309166
+9,2,length ratio,-0.6599466605510262

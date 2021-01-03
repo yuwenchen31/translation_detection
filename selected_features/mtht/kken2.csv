@@ -1,0 +1,7 @@
+,Context Length,Feature Name,Coefficient
+0,2,average sentence length,0.29556045852666474
+1,2,5 most frequent word,0.21670353639829606
+2,2,thresold PMI,0.15202357960960508
+3,2,pmi,-0.12151400816488299
+4,2,lexical density,-0.17296106567397698
+5,2,syllable ratio,-0.4055870930965693

@@ -1,0 +1,7 @@
+,Context Length,Feature Name,Coefficient
+0,5,average sentence length,0.762236189585704
+1,5,contextual function word,0.37094978462655376
+2,5,length ratio,0.2848465734590756
+3,5,repetition ratio,-0.373432556311696
+4,5,pronoun ratio,-0.5718869166077667
+5,5,syllable ratio,-1.0246050653177194

@@ -1,0 +1,23 @@
+,Context Length,Feature Name,Coefficient
+0,5,average sentence length,1.6562412518409202
+1,5,5 most frequent word,0.8435533398856473
+2,5,thresold PMI,0.4462219122369616
+3,5,explicit naming,0.42212017944954955
+4,5,average word length,0.41399802700217236
+5,5,10 most frequent word,0.33349622174953647
+6,5,passive verb ratio,0.3189166970533712
+7,5,type token ratio,0.2931752170236952
+8,5,50 most frequent word,0.2614650591552395
+9,5,perplexity,0.2559595873316584
+10,5,average function words,0.06135768726886203
+11,5,mdd,-0.1195093474543185
+12,5,positional token frequency,-0.13180143713951767
+13,5,single naming,-0.13899402155922824
+14,5,repetition ratio,-0.1505825962239821
+15,5,mean multiple naming,-0.21022926379950177
+16,5,pmi,-0.21184456405740393
+17,5,mean word rank,-0.2668074017837625
+18,5,pronoun ratio,-0.5345715962875538
+19,5,contextual function word,-0.5801732899989872
+20,5,lexical density,-0.9205035116189328
+21,5,syllable ratio,-1.7646508458597325

@@ -1,0 +1,12 @@
+,Context Length,Feature Name,Coefficient
+0,5,positional token frequency,0.8690345172585129
+1,5,perplexity,0.37116648737562774
+2,5,contextual function word,0.2744790830157356
+3,5,single naming,-0.24471575307486154
+4,5,mean word rank,-0.2539150732139191
+5,5,lexical density,-0.42029018596552004
+6,5,length ratio,-0.58526515189562
+7,5,thresold PMI,-0.5933449067430966
+8,5,pmi,-0.6057709693384575
+9,5,50 most frequent word,-0.6866100211993647
+10,5,average function words,-0.6913969216162408

@@ -1,0 +1,7 @@
+,Context Length,Feature Name,Coefficient
+0,2,average function words,0.2887550394765785
+1,2,length ratio,0.23626004323693262
+2,2,mean multiple naming,0.23303857413573628
+3,2,type token ratio,0.20648442419867385
+4,2,50 most frequent word,-0.22535510489045038
+5,2,passive verb ratio,-0.2665394469601226

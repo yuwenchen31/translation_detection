@@ -1,0 +1,8 @@
+,Context Length,Feature Name,Coefficient
+0,2,lexical density,0.04292832403018031
+1,2,single naming,0.037796782089814435
+2,2,average function words,0.030351952484554627
+3,2,length ratio,0.029767863360205135
+4,2,explicit naming,0.028555255489634883
+5,2,mean multiple naming,0.022216527627550362
+6,2,mtld,0.018335894565921256

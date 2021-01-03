@@ -1,0 +1,27 @@
+Feature name,Ave. coef,Std,Presence,Hypothesis
+syllable ratio,-0.459,1.318,55%,S
+mtld,-0.389,0.414,52%,S
+length ratio,-0.364,0.426,85%,I
+pronoun ratio,-0.257,0.225,67%,O
+lexical density,-0.237,0.31,58%,S
+repetition ratio,-0.195,0.185,73%,N
+mean word rank,-0.193,0.188,61%,S
+pmi,-0.186,0.302,61%,N
+mdd,-0.136,0.156,36%,S
+mean multiple naming,-0.109,0.215,33%,E
+50 most frequent word,-0.061,0.223,52%,S
+pos perplexity,-0.05,0.178,39%,I
+single naming,-0.041,0.121,36%,E
+10 most frequent word,-0.037,0.322,52%,S
+type token ratio,-0.015,0.507,48%,S
+average function words,0.008,0.273,70%,E
+average word length,0.022,0.305,76%,S
+passive verb ratio,0.038,0.228,48%,O
+contextual function word,0.04,0.368,52%,I
+explicit naming,0.055,0.189,33%,E
+positional token frequency,0.08,0.252,48%,I
+thresold PMI,0.097,0.345,52%,N
+yulesi,0.173,0.449,67%,S
+5 most frequent word,0.292,0.27,70%,S
+average sentence length,0.345,1.116,67%,S
+perplexity,1.171,3.298,27%,S

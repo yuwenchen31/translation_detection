@@ -1,0 +1,5 @@
+,Context Length,Feature Name,Coefficient
+0,10,mtld,0.10364800817006853
+1,10,average function words,-0.0630830958095577
+2,10,thresold PMI,-0.06517729801802054
+3,10,lexical density,-0.08766582378955323

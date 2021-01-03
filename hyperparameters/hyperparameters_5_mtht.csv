@@ -1,0 +1,12 @@
+language_pair,C,class_weight,loss,max_iter,tol,random_state
+ende,1000,balanced,hinge,100000,0.001,42
+enfi,100,None,hinge,10000,0.001,42
+enlt,2,balanced,hinge,2000,0.001,42
+enru,1000,balanced,squared_hinge,100000,0.001,42
+deen,5,None,squared_hinge,2000,0.001,42
+fien,5,balanced,hinge,2000,0.001,42
+guen,1000,balanced,hinge,100000,0.001,42
+kken,5,balanced,hinge,100000,0.001,42
+lten,100,balanced,squared_hinge,10000,0.001,42
+ruen,2,balanced,hinge,10000,0.0001,42
+zhen,2,None,hinge,100000,0.001,42
