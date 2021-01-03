@@ -2,6 +2,15 @@
 
 We employed a Support Vector Machines (SVMs) classifier and conducted three binary classification tasks (i.e., MT-HT, ME-PE, and HT-PE) using the linguistic attributes inspired by translation studies. Those linguistic features model the phenomenon of translationese in four aspects - simplification, explicitation, normalization, and interference. For details, please see the complete version of my [master thesis](https://drive.google.com/file/d/1Xlr-K9PZ7IhBoB4Bm-k7ghXkvOegMauC/view?usp=sharing). 
 
+### Install Dependencies
+
+To install all the packages used in this project, please install the dependencies by
+
+```
+pip install -r requirements.txt
+```
+
+
 ### Command Line Arguments 
 
 To reproduce the results, execute the `main.py` with command line options of `mtht`, `htpe`,`mtpe`, depending on which classification task you are intended to reproduce.
