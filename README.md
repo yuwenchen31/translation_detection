@@ -10,10 +10,16 @@ To reproduce the results, execute the `main.py` with command line options of `mt
 python main.py mtht
 ```
 
+This also works for classification task using features with low (<5) Variance Inflation Factor (VIF).
+
+```
+python vif_classification.py mtht
+```
+
 ### Files and Directories
 
 - `main.py` - implements the classification with grid search and recursive feature elimination (RFECV). (section 4.2)
-- `vif_classification.py` -  implements the classification using features whose Variance Inflation Factor (VIF) are below 5. (section 4.2)
+- `vif_classification.py` -  implements the classification using features whose VIF are below 5. (section 4.2)
 - `data/` - pickle files. Each column is the feature value. 
 - `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data (section 3)
    - `mtht_data.py` - extracts the non-translationese from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
