@@ -13,7 +13,6 @@ This also works for classification task using features with low (<5) Variance In
 
 
 ### Files and Directories
-Files listed here are not exhaustive. We only list out more relevant files. 
 
 - `main.py` - implements the classification with grid search and recursive feature elimination (RFECV). (section 4.2)
 - `vif_classification.py` -  implements the classification using features whose Variance Inflation Factor (VIF) are below 5. (section 4.2)
@@ -21,9 +20,7 @@ Files listed here are not exhaustive. We only list out more relevant files.
 - `coefficient_calculation/` - files to extract the feature importance metrics (section 5.2)
    - `1_combine_all.py` - 
 
-- `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data
+- `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data (section 3)
   - `mtht_data.py` - extracts the non-translationese from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
   - `htpe_data.py` - extracts the ht and pe part from [Microsoft Human-Parity](https://github.com/MicrosoftTranslator/Translator-HumanParityData). 
-  - `mtpe_data.py` - extracts mt and pe from 
-
-### Results 
+  - `mtpe_data.py` - extracts mt and pe from [Automatic Post-Editing (APE) shared task](http://www.statmt.org/wmt19/ape-task.html) and [APE-QUEST](https://ape-quest.eu/downloads/).
