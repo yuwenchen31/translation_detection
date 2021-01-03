@@ -46,3 +46,12 @@ python vif_classification.py mtht
 - `vif_features/` - features derived after implementing `vif_classification.py`
 - `hyperparameter/` - best hyperparameters found by grid search in `main.py`
 - `feature_importance/` - outputs derived from `coefficient_calculations`
+
+### Results
+The accuracy of each task derived from `main.py` with the context length of 10 consecutive sentences. For the results using the context length of 2 and 5, please see the section 5.1 in the thesis. 
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
