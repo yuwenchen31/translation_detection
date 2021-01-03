@@ -1,0 +1,3 @@
+,Context Length,Feature,Coefficient,VIF
+0,10,mean word rank,-0.07593160080201744,7.91161252950277
+1,10,length ratio,-0.5359060547326323,7.91161252950277

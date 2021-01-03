@@ -533,7 +533,7 @@ if __name__ == "__main__":
             
             
             # save the feature list into csv 
-            df_feature_ranking.to_csv("./selected_features/" + lang + str(con_len) + "_vif.csv")
+            df_feature_ranking.to_csv("./vif_features/" + clf_type + "/"+ lang + str(con_len) + ".csv")
         
         
         
@@ -575,7 +575,7 @@ if __name__ == "__main__":
                         xy=(rect.get_x() + rect.get_width() / 2, height),
                         xytext=(0, 3),  # 3 points vertical offset
                         textcoords="offset points",
-                        ha='center', va='bottom', fontsize=12)
+                        ha='center', va='bottom', fontsize=9)
         
     autolabel(rects1,ax1)
     autolabel(rects2,ax1)
