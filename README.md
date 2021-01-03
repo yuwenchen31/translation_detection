@@ -29,6 +29,7 @@ python vif_classification.py mtht
 
 - `main.py` - implements the classification with grid search and recursive feature elimination (RFECV). (section 4.2)
 - `vif_classification.py` -  implements the classification using features whose VIF are below 5. (section 4.2)
+- `all_feat_classification.py` - implements the classification all features (including PoS and character ngrams). Please note that it uses different data format than other two classification, which can be downloded [here](https://drive.google.com/drive/folders/1UITeVlCnln1Lh4etldm30klvAe3NcL4_?usp=sharing).
 - `data/` - pickle files. Each column is the feature value. 
 - `preprocessing/` - contains files for extracting the non-translationese parts from the raw data (newstest) and splitting data (section 3)
    - `mtht_data.py` - extracts the non-translationese from [newstest2016-2019](http://www.statmt.org/wmt19/results.html).
