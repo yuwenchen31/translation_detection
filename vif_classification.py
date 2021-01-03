@@ -28,7 +28,8 @@ from sklearn.metrics import classification_report,accuracy_score
 from sklearn.svm import SVC, LinearSVC
 from sklearn import preprocessing
 import matplotlib.pyplot as plt
-
+import sys
+sys.path.append("../")
 
 # extract each feature and standarize the data ---------------------------------
 
@@ -280,10 +281,26 @@ def eliminate_vif(file):
 
 if __name__ == "__main__":
 
-    # TODO: change the location of the hyperparameter files 
-    param_2 = pd.read_csv("/data/s3619362/hyperparameters/hyperparameters_2_mtht.csv")
-    param_5 = pd.read_csv("/data/s3619362/hyperparameters/hyperparameters_5_mtht.csv")
-    param_10 = pd.read_csv("/data/s3619362/hyperparameters/hyperparameters_10_mtht.csv")
+    # clf types: mtht, htpe, mtpe
+    clf_type = sys.argv[1]
+
+    if clf_type == 'mtht':
+        param_2 = pd.read_csv("./hyperparameter/hyperparameters_2_mtht.csv")
+        param_5 = pd.read_csv("./hyperparameter/hyperparameters_5_mtht.csv")
+        param_10 = pd.read_csv("./hyperparameter/hyperparameters_10_mtht.csv")
+
+    # htpe (zhen) - compares data in htpe and mtht 
+    elif clf_type == 'htpe':
+        param_2 = pd.read_csv("./hyperparameter/hyperparameters_2_htpe.csv")
+        param_5 = pd.read_csv("./hyperparameter/hyperparameters_5_htpe.csv")
+        param_10 = pd.read_csv("./hyperparameter/hyperparameters_10_htpe.csv")  
+
+    # mtpe - 5 language pairs 
+    else:
+        param_2 = pd.read_csv("./hyperparameter/hyperparameters_2_mtpe.csv")
+        param_5 = pd.read_csv("./hyperparameter/hyperparameters_5_mtpe.csv")
+        param_10 = pd.read_csv("./hyperparameter/hyperparameters_10_mtpe.csv")  
+
     
     
     context_length = [2,5,10]
@@ -324,10 +341,9 @@ if __name__ == "__main__":
             print('test filename is:', test_file)
 
 
-            # TODO: change the location of the data file
-            train_file = "/data/s3619362/mtht/" + train_file
-            dev_file = "/data/s3619362/mtht/" + dev_file
-            test_file = "/data/s3619362/mtht" + test_file
+            train_file = "./data/" + clf_type +  "/" + train_file
+            dev_file = "./data/" + clf_type + "/" + dev_file
+            test_file = "./data/" + clf_type + "/" + test_file
             
             
         
@@ -368,9 +384,8 @@ if __name__ == "__main__":
 
             
             
-            # TODO: change the location of the feature file
             # read the features from csv file
-            feature_file = pd.read_csv("/data/s3619362/coefficient_table/context_length_all_mtht.csv")
+            feature_file = pd.read_csv("./feature_importance/context_length_all_" + clf_type + ".csv")
             
             # get the selected features (derived from main.py)
             predefined_features = feature_file[(feature_file['Context Length'] == con_len) & (feature_file['Language Pair'] == lang)]['Feature Name'].tolist()
@@ -518,7 +533,7 @@ if __name__ == "__main__":
             
             
             # save the feature list into csv 
-            df_feature_ranking.to_csv("/data/s3619362/vif_feature/" + lang + str(con_len) +".csv")
+            df_feature_ranking.to_csv("./selected_features/" + lang + str(con_len) + "_vif.csv")
         
         
         
