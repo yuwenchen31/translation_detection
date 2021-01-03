@@ -20,11 +20,12 @@ python main.py mtht
    - `htpe_data.py` - extracts the ht and pe part from [Microsoft Human-Parity](https://github.com/MicrosoftTranslator/Translator-HumanParityData). 
    - `mtpe_data.py` - extracts mt and pe from [Automatic Post-Editing (APE) shared task](http://www.statmt.org/wmt19/ape-task.html) and [APE-QUEST](https://ape-quest.eu/downloads/).
    - `train_dev_test_split.py` - split data into 70% of training and 30% of testing
-- `feature_calculation/` - files implement the translationese features (section 4.1)
-- `selected_features/` - seleccted features after RFECV in `main.py`
-- `hyperparameter/` - best hyperparameters found by grid search in `main.py`
 - `coefficient_calculation/` - files to extract the feature importance (section 5.2)
    - `1_combine_all.py` - combines different language pairs and context length into one csv file
    - `2_feature_ranking_by_abs_coef.py` - outputs the rankings based on absolute coefficients 
    - `3_coef_rank_table.py` - computes 1) the average coefficients and 2) average rankings per feature 
+- `util` - some common functions 
+- `feature_calculation/` - files implement the translationese features (section 4.1)
+- `selected_features/` - seleccted features after RFECV in `main.py`
+- `hyperparameter/` - best hyperparameters found by grid search in `main.py`
 - `feature_importance/` - outputs derived from `coefficient_calculations`
