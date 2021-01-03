@@ -36,7 +36,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import RFE, RFECV
 from sklearn.model_selection import cross_val_score
 import sys
-
+sys.path.append("../")
 
 
 class ColumnExtractor(BaseEstimator,TransformerMixin):
@@ -302,10 +302,10 @@ if __name__ == "__main__":
             test_file = 'test.' + str(con_len) + '.' + lang
             print('test filename is:', test_file)
 
-            # TODO: change the location of the data file 
-            train_file = "/data/s3619362/mtht/" + train_file
-            dev_file = "/data/s3619362/mtht/" + dev_file
-            test_file = "/data/s3619362/mtht/" + test_file
+            
+            train_file = "./data/" + clf_type +  "/" + train_file
+            dev_file = "./data/" + clf_type + "/" + dev_file
+            test_file = "./data/" + clf_type + "/" + test_file
             
         
             train = pd.read_pickle(train_file)
@@ -468,7 +468,7 @@ if __name__ == "__main__":
             plt.ylabel("Cross validation score")
             plt.title(lang.upper())
             plt.plot(range(1, len(rfe_pipe.named_steps.rfe.grid_scores_) + 1), rfe_pipe.named_steps.rfe.grid_scores_)
-            plt.savefig("/home/s3619362/thesis/mtht/test/"+lang+str(con_len), dpi=300)
+            plt.savefig("../"+lang+str(con_len), dpi=300)
             plt.show()
             
             
@@ -508,7 +508,7 @@ if __name__ == "__main__":
             # save the features and coefficients as csv file 
             df_feature_ranking = pd.DataFrame(sort_list, columns=['Feature Name','Coefficient'])
             df_feature_ranking.insert(loc=0,column='Context Length', value=[con_len] * len(df_feature_ranking))
-            df_feature_ranking.to_csv('/home/s3619362/selected_features/mtht/' + lang + str(con_len) + '.csv')
+            df_feature_ranking.to_csv('./selected_features/mtht/' + lang + str(con_len) + '.csv')
         
 
             # append the accuracy and number of selected features for plotting  
