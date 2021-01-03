@@ -6,18 +6,8 @@ Created on Wed Sep  2 13:49:57 2020
 @author: chenfish
 """
 
-#import sys
-#sys.path.append("../")
-
-
-#from util.utils import corpy_udpipe
-#import pathlib
-
-#print(pathlib.Path().absolute())
-
-# This fil uses corpy udpipe to get pos tags. 
-# create a new file for pos sequence. 
-# for DE, EN, RU, LT ??????
+# This file uses corpy udpipe to get pos tags and create training data for language models of pos.
+# for DE, EN, RU, LT 
 
 
 from corpy.udpipe import Model
@@ -53,8 +43,6 @@ for line in data:
     
     
     # iterate over each word and append the POS into a list, 
-    
-    #print(parse_con[0])
     
     for i in parse_con[0]:
         #print(i)
